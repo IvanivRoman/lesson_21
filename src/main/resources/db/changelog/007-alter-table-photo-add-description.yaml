@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 7
+      author: Roman
+      changes:
+        - addColumn:
+            tableName: photo
+            columns:
+              - column:
+                  name: description
+                  type: varchar(255)
